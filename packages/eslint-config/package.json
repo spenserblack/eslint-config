@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/spenserblack/eslint-config#readme",
   "dependencies": {
-    "@spenserblack/eslint-config-base": "*",
-    "@spenserblack/eslint-config-typescript": "*",
+    "@spenserblack/eslint-config-base": "0.1.1",
+    "@spenserblack/eslint-config-typescript": "0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1"
   },

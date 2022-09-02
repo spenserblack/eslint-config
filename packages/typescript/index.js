@@ -13,7 +13,8 @@ const rules = Object.entries({
   'no-extraneous-class': 'error',
   'no-invalid-void-type': 'error',
   'no-require-imports': 'error',
-  'no-unnecessary-boolean-literal-compare': 'error',
+  'prefer-literal-enum-member': 'error',
+  'prefer-optional-chain': 'error',
 }).reduce((rules, [key, value]) => ({
   ...rules,
   [`@typescript-eslint/${key}`]: value,
@@ -21,7 +22,7 @@ const rules = Object.entries({
 
 module.exports = {
   extends: [
-    resolve(__dirname, './index.js'),
+    '@spenserblack/eslint-config-base',
     'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',

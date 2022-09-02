@@ -7,6 +7,10 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^8.23.0"
+    "@spenserblack/eslint-config": "workspace:^",
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "^8.23.0",
+    "typescript": "^4.8.2"
   }
 }
